@@ -1,0 +1,71 @@
+{
+  "courses": [
+    {
+      "code": "INFT2012",
+      "name": "C# Programming",
+      "assume": "SENG1110",
+      "reminder": true,
+      "id": 3
+    },
+    {
+      "code": "SENG2050",
+      "name": "Web Engineering",
+      "assume": "Web development basic",
+      "reminder": false,
+      "id": 4
+    },
+    {
+      "code": "SENG1110",
+      "name": "Java Script",
+      "assume": "None",
+      "reminder": false,
+      "id": 5
+    },
+    {
+      "code": "INFT1150",
+      "name": "asdafdsafa",
+      "assume": "None",
+      "reminder": "",
+      "id": 6
+    }
+  ],
+  "degrees": [
+    {
+      "code": "Degree1",
+      "name": "Degree2",
+      "id": 7
+    },
+    {
+      "code": "Degree2",
+      "name": "Degree2",
+      "id": 8
+    },
+    {
+      "code": "Degree3",
+      "name": "Degree3",
+      "id": 9
+    },
+    {
+      "code": "213",
+      "name": "124123",
+      "id": 10
+    }
+  ],
+  "majors": [
+    {
+      "code": "Major3",
+      "name": "Major3",
+      "id": 3
+    },
+    {
+      "code": "Major1",
+      "name": "Major1",
+      "id": 4
+    },
+    {
+      "code": "Major2",
+      "name": "Major2",
+      "id": 5
+    }
+  ]
+}

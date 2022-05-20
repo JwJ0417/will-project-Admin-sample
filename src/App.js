@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import CoursePages from './pages/CoursePages'
+import MajorPages from './pages/MajorPages'
+import DegreePages from './pages/DegreePages'
+import Login from './pages/Login'
+import Join from './pages/Join'
+import Header from './components/Header'
+import { Routes, Route} from "react-router-dom"
+import { Container } from 'react-bootstrap'
+import './index.css'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Container>
+    <Routes>
+      <Route path="/" element={<Header/>}/>
+      <Route path="/coursePages" element={<CoursePages/>} />
+      <Route path="/majorPages" element={<MajorPages/>} />
+      <Route path="/majorPages" element={<MajorPages/>} />
+      <Route path="/degreePages" element={<DegreePages/>} />
+      <Route path="/login" element={<Login/>} />
+      <Route path="/join" element={<Join/>} />
+
+    </Routes>
+    </Container>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
